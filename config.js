@@ -12,7 +12,7 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Research Projects',
       path: '/'
     },
     {
@@ -25,11 +25,11 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Carlos',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Much about quantitative evidence for research questions.',
     contacts: {
-      email: '',
+      email: 'c.utrilla.guerrero@gmail.com',
       facebook: '#',
       telegram: '#',
       twitter: '#',

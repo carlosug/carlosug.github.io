@@ -6,7 +6,7 @@ import Author from './Author';
 describe('Author', () => {
   const props = {
     author: {
-      name: 'test',
+      name: 'Carlos',
       photo: '/photo.jpg',
       bio: 'test'
     },
