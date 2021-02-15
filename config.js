@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
+  title: 'Blog by Carlos',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -14,6 +14,10 @@ module.exports = {
     {
       label: 'Research Projects',
       path: '/'
+    },
+    {
+      label: 'Teaching',
+      path: '/pages/teaching'
     },
     {
       label: 'About me',
@@ -27,13 +31,14 @@ module.exports = {
   author: {
     name: 'Carlos',
     photo: '/photo.jpg',
-    bio: 'Much about quantitative evidence for research questions.',
+    bio: 'Data scientist at Maastricht University',
     contacts: {
       email: 'c.utrilla.guerrero@gmail.com',
       facebook: '#',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      orcid: '#',
+      github: 'hub.com/carlosug',
       rss: '',
       vkontakte: '',
       linkedin: '#',
