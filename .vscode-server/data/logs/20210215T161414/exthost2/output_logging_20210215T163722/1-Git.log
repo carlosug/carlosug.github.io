@@ -2225,3 +2225,470 @@ fatal: no upstream configured for branch 'source'
 > git remote --verbose
 > git config --get commit.template
 > git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/carlosug/gatsby-config.js
+> git cat-file -s b38594c03193464d48bc3401372aea96920293be
+> git show --textconv :gatsby-config.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/carlosug/gatsby-config.js
+> git cat-file -s b38594c03193464d48bc3401372aea96920293be
+> git show --textconv :gatsby-config.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :package.json
+> git ls-files --stage -- /home/carlosug/package.json
+> git cat-file -s c378ab5073e70ec6a743cd4a29178b605c1e10b2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/carlosug/package.json
+> git cat-file -s 0d3a09629568068cc0a0dcc07ce56340572f8812
+> git show --textconv :package.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse source
+> git rev-parse --symbolic-full-name source@{u}
+fatal: no upstream configured for branch 'source'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

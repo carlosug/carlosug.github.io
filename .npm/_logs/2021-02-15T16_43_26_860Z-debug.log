@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'deploy' ]
+2 info using npm@6.14.11
+3 info using node@v12.20.1
+4 verbose config Skipping project config: /home/carlosug/.npmrc. (matches userconfig)
+5 verbose run-script [ 'predeploy', 'deploy', 'postdeploy' ]
+6 info lifecycle gatsby-starter-lumen@3.0.7~predeploy: gatsby-starter-lumen@3.0.7
+7 info lifecycle gatsby-starter-lumen@3.0.7~deploy: gatsby-starter-lumen@3.0.7
+8 verbose lifecycle gatsby-starter-lumen@3.0.7~deploy: unsafe-perm in lifecycle true
+9 verbose lifecycle gatsby-starter-lumen@3.0.7~deploy: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/carlosug/node_modules/.bin:/home/carlosug/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Users/P70069673/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/P70069673/AppData/Local/Programs/Python/Python39/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/IBM/SPSS/Statistics/25/JRE/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/P70069673/AppData/Local/Programs/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Users/P70069673/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/OpenShift:/mnt/c/Program Files/nodejs/:/mnt/c/Users/P70069673/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Docker Toolbox:/mnt/c/Users/P70069673/AppData/Local/Yarn/bin:/mnt/c/Users/P70069673/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/P70069673/.dotnet/tools:/mnt/c/Users/P70069673/AppData/Roaming/npm:/snap/bin
+10 verbose lifecycle gatsby-starter-lumen@3.0.7~deploy: CWD: /home/carlosug
+11 silly lifecycle gatsby-starter-lumen@3.0.7~deploy: Args: [
+11 silly lifecycle   '-c',
+11 silly lifecycle   'yarn run clean && gatsby build --prefix-paths && gh-pages -d public -b master'
+11 silly lifecycle ]
+12 silly lifecycle gatsby-starter-lumen@3.0.7~deploy: Returned: code: 1  signal: null
+13 info lifecycle gatsby-starter-lumen@3.0.7~deploy: Failed to exec deploy script
+14 verbose stack Error: gatsby-starter-lumen@3.0.7 deploy: `yarn run clean && gatsby build --prefix-paths && gh-pages -d public -b master`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+14 verbose stack     at EventEmitter.emit (events.js:314:20)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+14 verbose stack     at ChildProcess.emit (events.js:314:20)
+14 verbose stack     at maybeClose (internal/child_process.js:1022:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5)
+15 verbose pkgid gatsby-starter-lumen@3.0.7
+16 verbose cwd /home/carlosug
+17 verbose Linux 5.4.72-microsoft-standard-WSL2
+18 verbose argv "/usr/bin/node" "/usr/bin/npm" "run" "deploy"
+19 verbose node v12.20.1
+20 verbose npm  v6.14.11
+21 error code ELIFECYCLE
+22 error errno 1
+23 error gatsby-starter-lumen@3.0.7 deploy: `yarn run clean && gatsby build --prefix-paths && gh-pages -d public -b master`
+23 error Exit status 1
+24 error Failed at the gatsby-starter-lumen@3.0.7 deploy script.
+24 error This is probably not a problem with npm. There is likely additional logging output above.
+25 verbose exit [ 1, true ]
