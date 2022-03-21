@@ -1,0 +1,40 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 17
+
+    # - name: Setup SSH
+    #   uses: MrSquaare/ssh-setup-action@v1
+    #   with:
+    #     host: github.com
+    #     private-key: ${{ secrets.GIT_SSH_PRIVATE_KEY }}
+
+    - name: Build and publish
+      # env:
+      #   USE_SSH: true
+      #   GIT_USER: MaastrichtU-IDS
+      run: |
+        git config --global user.email "c.utrilla.guerrero@gmail.com"
+        git config --global user.name "carlosug"
+        yarn install
+        yarn deploy
+
+    # - name: Fix custom GitHub Pages URL
+    #   uses: octokit/request-action@v2.x
+    #   with:
+    #     route: PUT /repos/MaastrichtU-IDS/d2s-docs/pages
+    #     cname: "d2s.semanticscience.org"
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.API_GITHUB_TOKEN }}
+    #     ## Default token does not have required access: secrets.GITHUB_TOKEN

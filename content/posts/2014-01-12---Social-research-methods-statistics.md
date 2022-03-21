@@ -1,0 +1,118 @@
+---
+title: Lessons learned in MSc Quantitative Social Research Methods
+date: "2014-01-01T22:40:32.169Z"
+template: "post"
+draft: false
+slug: "Social-research-methods-statistics"
+category: "Social research and statistics"
+description: "Learning outcomes per module and assignments at MSc Spcial Research Methods and Statistics."
+socialImage: "/media/image-3.jpg"
+---
+
+![42-line-bible.jpg](/media/42-line-bible.jpg)
+
+**Modules:**
+
+- [Methodological and research design](#methodological-and-research-design)
+- [Introduction to statistical modeling](#introduction-to-statistical-modeling)
+- [Statistical foundations](#statistical-foundations)
+- [Multilevel modeling](#multilevel-modeling)
+- [Structural equation and latent models](#structural-equation-and-latent-models)
+- [Survey research methods](#survey-research-methods)
+- [Longitudinal Data Analysis](#longitudinal-data-analysis)
+
+<div class="text-center m-top-50">
+    <a class="btn line-btn-dark btn-icon btn-radius" href="/media/MSRMS.pdf" title=""<i class="fa fa-download" download></i>✔️ Download the official MSc courses grades</a>
+</div>
+
+## Methodological and research design
+
+This course helped us to learn the skills needed to develop a good research proposal and to plan and deliver a research project successfully. Lab-lectures were broadly on topics such:
++ philosophy of social science;
++ research methodology and practical research strategies; and
++ research design, with an emphasis on comparative and longitudinal research.
+
+
+<div class="text-center m-top-50">
+    <a class="btn line-btn-dark btn-icon btn-radius" href="/media/MARD.pdf" title=""<i class="fa fa-download" download></i>✔️ Download Essay: Corruption in EU</a>
+</div>
+
+## Introduction to statistical modeling
+
+Broadly, to be able to use common statistical models to address substantive social research questions.
+
+1. Use statistical models (linear regression, logistic regression, factor analysis) using data from large social surveys.
+2. Hypothesis testing and to make valid inferences from a sample to the population of interest.
+3. interpret and  evaluate the results of such modelling and inferential analyses.
+4. Use R and Python statistical package's to carry on such analysis.
+5. Data reduction and classification techniques
+<div class="text-center m-top-50">
+    <a class="btn line-btn-dark btn-icon btn-radius" href="/media/ISM.pdf" title=""<i class="fa fa-download" download></i>✔️ Download Essay: Assessing the structure of Health Care System in UK using Statistical Modelling Methods</a>
+</div>
+
+## Statistical foundations
+
+We learned firm grounding in the basics of statistical inference and probability. Likewise, an (i) understanding of how study design and model considerations affect the kinds of inferences that can be drawn from different data and; (ii) the confidence and ability to draw different statistical inferences from real data:
+
+1. Population, samples and descriptive statistics.
+2. fundamental concepts in probability theory.
+3. Common probability distributions and their properties.
+4. Estimators and Hypothesis testing.
+5. Causal inference, modelling and practical considerations in social science. 
+
+<div class="text-center m-top-50">
+    <a class="btn line-btn-dark btn-icon btn-radius" href="/media/SF.pdf" title=""<i class="fa fa-download" download></i>✔️ Essay: The case of “Cultural objects modulate
+reward circuitry</a>
+</div>
+
+## Multilevel modeling
+Basically, we learned the theory of multilevel models; its applications as well as software for fitting such models:
+
+1. Multilevel techniques to normal response data, discrete and repeated measures data.
+2. How to use the R and other software for fitting multilevel models.
+3. Interpret in non-technical language the results from a multilevel analysis of a large dataset.
+4. Random intercepts models, random slopes models, inference for multilevel models.
+5. The use of contextual variables in multilevel analysis.
+6. Modelling complex variance structures.
+7. Binary response multilevel models.
+
+<div class="text-center m-top-50">
+    <a class="btn line-btn-dark btn-icon btn-radius" href="/media/MLM.pdf" title=""<i class="fa fa-download" download></i>✔️ Essay: Health inequalities across UK regions: A Multilevel Modelling Approach</a>
+</div>
+
+
+## Structural equation and latent models
+
+Particularly well explained how we can generate, specify, analyse, interpret and critically discuss a range of such models based on relevant research questions:
+
+1. Understand the nature of [SEM](https://en.wikipedia.org/wiki/Structural_equation_modeling) and  its  relationship to other statistical methods, specifically regression, path, and latent variable models.
+2. How to use the R and other software for fitting multilevel models.
+3. Distinguish between categorical and continuous variables, both observed and latent.
+4. Be able to translate conceptual theory/hypothesis into appropriate SEM.
+5. Interpret and graph the parameter estimates generated by different SEM.
+6. Use MPLUS to specify and fit a range of structural equation models to ‘real’ datasets.
+
+<div class="text-center m-top-50">
+    <a class="btn line-btn-dark btn-icon btn-radius" href="/media/SEM.pdf" title=""<i class="fa fa-download" download></i>✔️ Essay: Measurement Political Trust: A Structural Equation Modelling Study</a>
+</div>
+
+## Survey research methods
+
+Practical learning of the role of large-scale surveys in social research and practical experience of the key elements of conducting a survey including, sampling techniques, alternative modes of data collection, the role of the survey interviewer, questionnarie design, measurement error, and estimation in surveys:
+
+1. Apply the key terminology used in large-scale survey design.
+2. Understanding factors that influence data quality, including coverage, sampling, and nonresponse.
+3. Evaluate different survey methods and sampling techniques. 
+4. Identify methods for assessing the quality of survey data.
+
+<div class="text-center m-top-50">
+    <a class="btn line-btn-dark btn-icon btn-radius" href="/media/SM.pdf" title=""<i class="fa fa-download" download></i>✔️ Essay: Survey Research Methods for the Time Banks Survey (2014) Round I</a>
+</div>
+
+## Longitudinal Data Analysis
+Understanding of different longitudinal designs and the skills needed to conduct appropriate analyses using longitudinal data. Methods covered include the multilevel model for change, and models for investigating event occurrence over time.
+
+1. Measurement and explanation of change.
+2. Lectures and computer-lab examples mainly focused on Social Inequality and Education.
+3. Studies implemented with appropriate statistical software, focusing on the use of R for longitudinal data analysis.
+
