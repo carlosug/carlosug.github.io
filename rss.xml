@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Carlos website]]></title><description><![CDATA[I know how computers work.]]></description><link>https://carlosug.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 19 Oct 2022 22:30:59 GMT</lastBuildDate><item><title><![CDATA[DSRI - Data Science Research Infrastructure]]></title><description><![CDATA[A UM wide resource for data science and artificial intelligence.]]></description><link>https://carlosug.github.io/posts/DSRI-DataScience</link><guid isPermaLink="false">https://carlosug.github.io/posts/DSRI-DataScience</guid><pubDate>Tue, 08 Mar 2022 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;A distributed and scalable infrastructure to run Data Science experiments at Maastricht University. More info: &lt;a href=&quot;https://dsri.maastrichtuniversity.nl/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://dsri.maastrichtuniversity.nl/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[PLAYFAIR - FAIR Data for Historical Games]]></title><description><![CDATA[Research Fellow proposal for digital humanities EU.]]></description><link>https://carlosug.github.io/posts/FAIR-data-management</link><guid isPermaLink="false">https://carlosug.github.io/posts/FAIR-data-management</guid><pubDate>Mon, 08 Mar 2021 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 396px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.83333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABYBAQEBAAAAAAAAAAAAAAAAAAMBAv/aAAwDAQACEAMQAAAB0WVgSJY1P//EABoQAQACAwEAAAAAAAAAAAAAAAEAEwIREgP/2gAIAQEAAQUC9XWTtDoKDqmVs//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AVf/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAIAQIBAT8Byj//xAAcEAABAwUAAAAAAAAAAAAAAAAAASFBEBExMlH/2gAIAQEABj8CbtJUVbyZc2P/xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhMYFh/9oACAEBAAE/IVBBzuJYAXBSD0xM2TaYEz2lWmT/2gAMAwEAAgADAAAAEKwf/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QUSP/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxAQz//EAB0QAQACAgIDAAAAAAAAAAAAAAERIQAxQVGRscH/2gAIAQEAAT8QH4RkWbPzI+ZioWeNYQPnbwxF23o1PG8WSps1v3GsABXXW3vef//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/71e5689f7dfa42b9643e4acd40e9e0c8/8ac56/LUDEME.webp 240w,
+/static/71e5689f7dfa42b9643e4acd40e9e0c8/2a0bc/LUDEME.webp 396w&quot;
+              sizes=&quot;(max-width: 396px) 100vw, 396px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/71e5689f7dfa42b9643e4acd40e9e0c8/09b79/LUDEME.jpg 240w,
+/static/71e5689f7dfa42b9643e4acd40e9e0c8/c745a/LUDEME.jpg 396w&quot;
+            sizes=&quot;(max-width: 396px) 100vw, 396px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/71e5689f7dfa42b9643e4acd40e9e0c8/c745a/LUDEME.jpg&quot;
+            alt=&quot;Ludeme image&quot;
+            title=&quot;Ludeme image&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.ludeme.eu/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Ludeme Project&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/MaastrichtU-IDS/play-fair&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;PLAYFAIR github repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://edata.nl/2022/01/31/historische-spelletjesdatabase-in-de-maak/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;E-Data &amp;#x26; Research Article&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;text-center m-top-50&quot;&gt;
+    &lt;a class=&quot;btn line-btn-dark btn-icon btn-radius&quot; href=&quot;/media/PLAYFAIR_poster.pdf&quot; title=&quot;&quot;&lt;i class=&quot;fa fa-download&quot; download&gt;&lt;/i&gt;✔️ Download **PLAYFAIR Poster**&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;the-digital-age-and-open-science&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#the-digital-age-and-open-science&quot; aria-label=&quot;the digital age and open science permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;The digital age and Open Science&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&quot;http://www.ludeme.eu/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;ERC-Digital Ludeme Project (DLP)&lt;/a&gt; is constructing a database of historical evidence for Ancient games, aiming at modeling the evolution of games throughout history. This database is unique in its scale, and its development is constrained by the unreliable nature of the data, lacking standards with other historical datasets. &lt;strong&gt;PLAYFAIR&lt;/strong&gt; will apply &lt;a href=&quot;https://www.nature.com/articles/sdata201618&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;FAIR principles&lt;/a&gt; to our dataset to maximize its usefulness and longevity and explore the use of &lt;a href=&quot;https://en.wikipedia.org/wiki/Semantic_Web&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Semantic Web&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Linked_data&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Linked Data (LD)&lt;/a&gt; approaches for this purpose.
+We will connect our dataset — that is the world’s most comprehensive dataset on Ancient games — with others, to make a universally FAIR to everyone, and find sources for additional data to complete our own set.
+&lt;strong&gt;PLAYFAIR&lt;/strong&gt; will tackle the challenge of developing an LD workflow using &lt;a href=&quot;https://clariah.nl/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;CLARIAH&lt;/a&gt;, show the power of the Semantic Web to answering a research question, and enhance data published on the Web in any applications of digital humanities.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[FAIR begins at home - Promoting FAIR via the Community of Data Driven Insights]]></title><description><![CDATA[A short description of the project Community for Data-Driven Insights at Maastricht University.]]></description><link>https://carlosug.github.io/posts/community-data-driven-insight</link><guid isPermaLink="false">https://carlosug.github.io/posts/community-data-driven-insight</guid><pubDate>Sun, 01 Mar 2020 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;In 2017, &lt;a href=&quot;https://library.maastrichtuniversity.nl/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;UM&lt;/a&gt; launched their first and joint ‘data-driven’ initiative towards &lt;a href=&quot;https://www.nature.com/articles/sdata201618&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;FAIR&lt;/a&gt; university. The Community for Data Driven Insights &lt;a href=&quot;https://library.maastrichtuniversity.nl/research-support/rdm/cddi/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;(CDDI)&lt;/a&gt; governance structure is in place and they explore the ways to turn its FAIR ambitions into reality. CDDI is designed to open up a space where relevant stakeholders work together on specific issues for the realisation of the 2025 Agenda.&lt;/p&gt;
+&lt;p&gt;I’m helping UM towards this goal, to become first FAIR University by 2025, by implementing FAIR principles along diverse research projects and applying data science, particularly Semantic Web technologies.&lt;/p&gt;
+&lt;div class=&quot;text-center m-top-50&quot;&gt;
+    &lt;a class=&quot;btn line-btn-dark btn-icon btn-radius&quot; href=&quot;/media/fair.pdf&quot; title=&quot;&quot;&lt;i class=&quot;fa fa-download&quot; download&gt;&lt;/i&gt;✔️ Download Abstract&lt;/a&gt;
+&lt;/div&gt;
+&lt;p&gt;See more information:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Utrilla Guerrero, Carlos (2021): Community for Data Driven Insights -&lt;/strong&gt; Online resource. &lt;a href=&quot;https://doi.org/10.17605/OSF.IO/398CZ&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Utrilla Guerrero, C. (2021, March 19). Community for Data Driven Insights (CDDI). https://doi.org/10.17605/OSF.IO/398CZ&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-resp-iframe-wrapper&quot; style=&quot;padding-bottom: 63.829787234042556%; position: relative; height: 0; overflow: hidden; margin-bottom: 1.0725rem&quot; &gt; &lt;iframe src=&quot;https://embed.kumu.io/6a045ad6e4c091c5bf4600de8af94d5f&quot; frameborder=&quot;0&quot; style=&quot; position: absolute; top: 0; left: 0; width: 100%; height: 100%; &quot;&gt;&lt;/iframe&gt; &lt;/div&gt;</content:encoded></item><item><title><![CDATA[New Space - The Broken Geospatial community]]></title><description><![CDATA[My personal view and experience about nano-satellite and earth observation companies]]></description><link>https://carlosug.github.io/posts/GeolocationData</link><guid isPermaLink="false">https://carlosug.github.io/posts/GeolocationData</guid><pubDate>Sun, 18 Aug 2019 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;The opposite of “open” isn’t “closed”. The opposite of “open” is “broken”. — &lt;a href=&quot;https://en.wikipedia.org/wiki/John_Wilbanks&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;John Wilbanks&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Modules:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#context&quot;&gt;Context&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#lessons-learned&quot;&gt;Lessons learned&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#related-projects&quot;&gt;Related Projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;context&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#context&quot; aria-label=&quot;context permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Context&lt;/h2&gt;
+&lt;p&gt;The company did conduct core research on problems that cut across the data sciences and engineering. The general research scope focused on formal and mathematical models for data processing, as well as on issues concerning the engineering of large-scale data processing systems.The greatest technical goal at this project have been the application of data-driven approaches to extract information from satellite. An important part of my work consisted of the devising novel methods to statistically learn about patterns of life of any defined and observed area, and how it changes over time. Generally speaking, the tasks consisted in the revision of methods for analysis geolocating and longitudinal data, in particular on anomaly detection and data fusion techniques. This partially includes trajectory reconstruction and spatio-temproral normalcy recognition for addressing today societal challenges. Deep learning algorithms were found well fitted into our analysis. I also found useful the DBSCAN algorithm in order to cluster different regions using instead, maritime data as AIS dataset. When task were intented to deal with commercial inputs (e.g. heatmap data visualisation demo), I’ve used eolearn, javascrpit and google maps API to portrait data into imagery layer.&lt;/p&gt;
+&lt;h2 id=&quot;lessons-learned&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#lessons-learned&quot; aria-label=&quot;lessons learned permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Lessons learned&lt;/h2&gt;
+&lt;p&gt;I personally learnt a vast amount of code sources (includes also data project management skills such tools and documentation work breakdown structure) and met people involved in such complex challenges from all around the world (European Space Agency - Copernicus Programme). Also, worth to mention the tasks performed for the SDG-14 to halt illegal maritime activities.&lt;/p&gt;
+&lt;h2 id=&quot;related-projects&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#related-projects&quot; aria-label=&quot;related projects permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Related projects&lt;/h2&gt;
+&lt;h3 id=&quot;bayesian-simulation-of-eo-data-mission&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#bayesian-simulation-of-eo-data-mission&quot; aria-label=&quot;bayesian simulation of eo data mission permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Bayesian simulation of EO Data Mission:&lt;/h3&gt;
+&lt;p&gt;Mimic of social network has been addressed using Monte Carlo simulation in order to estimate the probability of detection for the satellite. I performed t-test statistics for testing hypothesis about sample size and means groups and also gave advice in the MC Simulation. I also had experience with NoSql and json file format (MongoDB) in order to retrieve data.&lt;/p&gt;
+&lt;h3 id=&quot;machine-learning-ml-and-deep-learning-pipeline-in-remote-sensing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#machine-learning-ml-and-deep-learning-pipeline-in-remote-sensing&quot; aria-label=&quot;machine learning ml and deep learning pipeline in remote sensing permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Machine Learning (ML) and Deep Learning Pipeline in Remote Sensing:&lt;/h3&gt;
+&lt;p&gt;A Recurrent Neural Network (RNN) approach architecture for classification of objects from Satellite Imagery is being considering within my team. The proposed RNN architecture is expected to offer a viable operational solution for pipeline integration into multitude of potential applications in the areas of precision and monitoring risk &amp;#x26; damage assessment.&lt;/p&gt;
+&lt;p&gt;The under construction “geo-located data” pipeline (e.g. formalization and algorithms not complete yet) significantly reduces the complexity of creating models by removing the need for handcrafted filtering, and making it a cost-effective option for bringing neural network models to the market.&lt;/p&gt;
+&lt;h3 id=&quot;big-data-eo-open-source-software&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#big-data-eo-open-source-software&quot; aria-label=&quot;big data eo open source software permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Big Data EO open-source Software:&lt;/h3&gt;
+&lt;p&gt;Significant efforts were concentrated on the development of software based on multi-temporal, multi-sensor datasets over large geographical regions. Software Engineer, System Engineer and I myself were defining the requirements for such software, IT infrastructure solution and computing capabilities for the four-stage pipeline (1) stored, (2) processed and (3) ready for analysis. Commercial and collaborative approach solutions were taking into account for the sake of data latency and many other resources under management requirements.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Learn for fun (Data Science)]]></title><description><![CDATA[This repository contains the weekly work exercises for Deep Learning and data science.]]></description><link>https://carlosug.github.io/posts/learn-for-fun (Data Science)</link><guid isPermaLink="false">https://carlosug.github.io/posts/learn-for-fun (Data Science)</guid><pubDate>Sun, 19 Aug 2018 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;I’m always ready to learn more skills. Here my data stories performed using Javascript and R statistics:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://carlosug.github.io/TensorflowinBrowser/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Tensorflow javascript in the browser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://carlosug.github.io/ranalytics/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;RAnalytics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Environmentally-Friendly: Theory of planned behaviour and the role of moral norm.]]></title><description><![CDATA[A short description about my dissertation at the University of Manchester (UK).]]></description><link>https://carlosug.github.io/posts/environmental-friendly</link><guid isPermaLink="false">https://carlosug.github.io/posts/environmental-friendly</guid><pubDate>Sun, 02 Feb 2014 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 960px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b3e5e61f7fb8888ba76b502242e27bd0/d9c39/image-0.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwAE/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgED/9oADAMBAAIQAxAAAAFYTebWei//xAAcEAABAwUAAAAAAAAAAAAAAAABAAIhAxESMkH/2gAIAQEAAQUCBQkPxvKp6d//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAAARAhYXH/2gAIAQEABj8CmhaPp//EABwQAQADAQADAQAAAAAAAAAAAAEAESExQWFxkf/aAAgBAQABPyG2s3zDlwtPso2l+4urVTU7nen9iDmYif/aAAwDAQACAAMAAAAQVy//xAAWEQADAAAAAAAAAAAAAAAAAAAAASH/2gAIAQMBAT8QShD/xAAWEQADAAAAAAAAAAAAAAAAAAAAASH/2gAIAQIBAT8QbpT/xAAdEAEAAgIDAQEAAAAAAAAAAAABABEhMUFRYXGR/9oACAEBAAE/EBqFjmHHCQKTXget+R0cJnJjlDcKlul/L4gKW10tG7HcIO4FdP2f/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/b3e5e61f7fb8888ba76b502242e27bd0/8ac56/image-0.webp 240w,
+/static/b3e5e61f7fb8888ba76b502242e27bd0/d3be9/image-0.webp 480w,
+/static/b3e5e61f7fb8888ba76b502242e27bd0/e46b2/image-0.webp 960w,
+/static/b3e5e61f7fb8888ba76b502242e27bd0/f992d/image-0.webp 1440w,
+/static/b3e5e61f7fb8888ba76b502242e27bd0/62ed8/image-0.webp 1800w&quot;
+              sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/b3e5e61f7fb8888ba76b502242e27bd0/09b79/image-0.jpg 240w,
+/static/b3e5e61f7fb8888ba76b502242e27bd0/7cc5e/image-0.jpg 480w,
+/static/b3e5e61f7fb8888ba76b502242e27bd0/6a068/image-0.jpg 960w,
+/static/b3e5e61f7fb8888ba76b502242e27bd0/644c5/image-0.jpg 1440w,
+/static/b3e5e61f7fb8888ba76b502242e27bd0/d9c39/image-0.jpg 1800w&quot;
+            sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/b3e5e61f7fb8888ba76b502242e27bd0/6a068/image-0.jpg&quot;
+            alt=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
+            title=&quot;Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://doi.org/10.13140/RG.2.1.3042.7687&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Master Thesis&lt;/a&gt;: &lt;a href=&quot;https://doi.org/10.13140/RG.2.1.3042.7687&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;https://doi.org/10.13140/RG.2.1.3042.7687&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/carlosug/green-behaviour&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Github Repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The first pillar of my research focus began in the understanding of citizen’s acceptance and adoption of pro-environmental behaviours. The work involves both theory-driven and analysis of empirical data Eurobarometer in the fields of environmental and social psychology.&lt;/p&gt;
+&lt;p&gt;The master thesis, in which structural equation modelling and mediation analysis were applied to the TPB model from Ajzen (1991), have contributed to a better understanding of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;what citizens think about the product information that are used by environmental standards eco-label system –i.e. the importance to build consumer knowledge and confidence to help identify sustainable products.&lt;/li&gt;
+&lt;li&gt;the psychological processes underlying in pro-environmentally behaviours –i.e. moderating role of moral norms in the association between personal norm and attitudes.&lt;/li&gt;
+&lt;li&gt;finally, what are the suitable strategies to accelerate the diffusion and implementation of environmental labels to address perceived behavioural control and moral norms factors.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The far reaching implications of this research point to new (inter) national policy directions (SET-Plan) that foster community-oriented engagement opportunities (ultimately in stimulating citizen’s pro-environmental behavior) and, fruitful avenue for future research with an integrated approach:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;using a multilevel theoretical&lt;/strong&gt; perspective to gain a holistic understanding of barriers and drivers for purchasing EFP (SIMPEA model to help explain the role of values and moral norms in pro-environmental attitudes and behaviour)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;country-region-citizen segmentation using latent class models&lt;/strong&gt; to identify population segments with different situational and motivational factors.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Lessons learned in MSc Quantitative Social Research Methods]]></title><description><![CDATA[Learning outcomes per module and assignments at MSc Spcial Research Methods and Statistics.]]></description><link>https://carlosug.github.io/posts/Social-research-methods-statistics</link><guid isPermaLink="false">https://carlosug.github.io/posts/Social-research-methods-statistics</guid><pubDate>Wed, 01 Jan 2014 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 68.75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAQP/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABufUKs5i//8QAGhAAAgIDAAAAAAAAAAAAAAAAAAIBEhARMf/aAAgBAQABBQLhdiLY2otmj//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABEUECEHH/2gAIAQEABj8CWqFJZKzhcP/EABoQAAICAwAAAAAAAAAAAAAAAAABESExQVH/2gAIAQEAAT8htIzvAkKJdIZ1iOrKhtOD58i2UYQ//9oADAMBAAIAAwAAABCPz//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EGf/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxAn/8QAGxABAAIDAQEAAAAAAAAAAAAAAQARITFRQYH/2gAIAQEAAT8QURjCRbioVC2xo2WyVaV7jtwCCrbaU0oxx2BWbCVKxv5P/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/6d93cbc4956a854d4c4369f0e281e7f3/8ac56/42-line-bible.webp 240w,
+/static/6d93cbc4956a854d4c4369f0e281e7f3/d3be9/42-line-bible.webp 480w,
+/static/6d93cbc4956a854d4c4369f0e281e7f3/d00b9/42-line-bible.webp 800w&quot;
+              sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/6d93cbc4956a854d4c4369f0e281e7f3/09b79/42-line-bible.jpg 240w,
+/static/6d93cbc4956a854d4c4369f0e281e7f3/7cc5e/42-line-bible.jpg 480w,
+/static/6d93cbc4956a854d4c4369f0e281e7f3/4b190/42-line-bible.jpg 800w&quot;
+            sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/6d93cbc4956a854d4c4369f0e281e7f3/4b190/42-line-bible.jpg&quot;
+            alt=&quot;42-line-bible.jpg&quot;
+            title=&quot;42-line-bible.jpg&quot;
+            loading=&quot;lazy&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Modules:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#methodological-and-research-design&quot;&gt;Methodological and research design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#introduction-to-statistical-modeling&quot;&gt;Introduction to statistical modeling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#statistical-foundations&quot;&gt;Statistical foundations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#multilevel-modeling&quot;&gt;Multilevel modeling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#structural-equation-and-latent-models&quot;&gt;Structural equation and latent models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#survey-research-methods&quot;&gt;Survey research methods&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#longitudinal-data-analysis&quot;&gt;Longitudinal Data Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;text-center m-top-50&quot;&gt;
+    &lt;a class=&quot;btn line-btn-dark btn-icon btn-radius&quot; href=&quot;/media/MSRMS.pdf&quot; title=&quot;&quot;&lt;i class=&quot;fa fa-download&quot; download&gt;&lt;/i&gt;✔️ Download the official MSc courses grades&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;methodological-and-research-design&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#methodological-and-research-design&quot; aria-label=&quot;methodological and research design permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Methodological and research design&lt;/h2&gt;
+&lt;p&gt;This course helped us to learn the skills needed to develop a good research proposal and to plan and deliver a research project successfully. Lab-lectures were broadly on topics such:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;philosophy of social science;&lt;/li&gt;
+&lt;li&gt;research methodology and practical research strategies; and&lt;/li&gt;
+&lt;li&gt;research design, with an emphasis on comparative and longitudinal research.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;text-center m-top-50&quot;&gt;
+    &lt;a class=&quot;btn line-btn-dark btn-icon btn-radius&quot; href=&quot;/media/MARD.pdf&quot; title=&quot;&quot;&lt;i class=&quot;fa fa-download&quot; download&gt;&lt;/i&gt;✔️ Download Essay: Corruption in EU&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;introduction-to-statistical-modeling&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#introduction-to-statistical-modeling&quot; aria-label=&quot;introduction to statistical modeling permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Introduction to statistical modeling&lt;/h2&gt;
+&lt;p&gt;Broadly, to be able to use common statistical models to address substantive social research questions.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use statistical models (linear regression, logistic regression, factor analysis) using data from large social surveys.&lt;/li&gt;
+&lt;li&gt;Hypothesis testing and to make valid inferences from a sample to the population of interest.&lt;/li&gt;
+&lt;li&gt;interpret and  evaluate the results of such modelling and inferential analyses.&lt;/li&gt;
+&lt;li&gt;Use R and Python statistical package’s to carry on such analysis.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Data reduction and classification techniques&lt;/p&gt;
+&lt;div class=&quot;text-center m-top-50&quot;&gt;
+&lt;a class=&quot;btn line-btn-dark btn-icon btn-radius&quot; href=&quot;/media/ISM.pdf&quot; title=&quot;&quot;&lt;i class=&quot;fa fa-download&quot; download&gt;&lt;/i&gt;✔️ Download Essay: Assessing the structure of Health Care System in UK using Statistical Modelling Methods&lt;/a&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;statistical-foundations&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#statistical-foundations&quot; aria-label=&quot;statistical foundations permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Statistical foundations&lt;/h2&gt;
+&lt;p&gt;We learned firm grounding in the basics of statistical inference and probability. Likewise, an (i) understanding of how study design and model considerations affect the kinds of inferences that can be drawn from different data and; (ii) the confidence and ability to draw different statistical inferences from real data:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Population, samples and descriptive statistics.&lt;/li&gt;
+&lt;li&gt;fundamental concepts in probability theory.&lt;/li&gt;
+&lt;li&gt;Common probability distributions and their properties.&lt;/li&gt;
+&lt;li&gt;Estimators and Hypothesis testing.&lt;/li&gt;
+&lt;li&gt;Causal inference, modelling and practical considerations in social science. &lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;text-center m-top-50&quot;&gt;
+    &lt;a class=&quot;btn line-btn-dark btn-icon btn-radius&quot; href=&quot;/media/SF.pdf&quot; title=&quot;&quot;&lt;i class=&quot;fa fa-download&quot; download&gt;&lt;/i&gt;✔️ Essay: The case of “Cultural objects modulate
+reward circuitry&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;multilevel-modeling&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#multilevel-modeling&quot; aria-label=&quot;multilevel modeling permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Multilevel modeling&lt;/h2&gt;
+&lt;p&gt;Basically, we learned the theory of multilevel models; its applications as well as software for fitting such models:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Multilevel techniques to normal response data, discrete and repeated measures data.&lt;/li&gt;
+&lt;li&gt;How to use the R and other software for fitting multilevel models.&lt;/li&gt;
+&lt;li&gt;Interpret in non-technical language the results from a multilevel analysis of a large dataset.&lt;/li&gt;
+&lt;li&gt;Random intercepts models, random slopes models, inference for multilevel models.&lt;/li&gt;
+&lt;li&gt;The use of contextual variables in multilevel analysis.&lt;/li&gt;
+&lt;li&gt;Modelling complex variance structures.&lt;/li&gt;
+&lt;li&gt;Binary response multilevel models.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;text-center m-top-50&quot;&gt;
+    &lt;a class=&quot;btn line-btn-dark btn-icon btn-radius&quot; href=&quot;/media/MLM.pdf&quot; title=&quot;&quot;&lt;i class=&quot;fa fa-download&quot; download&gt;&lt;/i&gt;✔️ Essay: Health inequalities across UK regions: A Multilevel Modelling Approach&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;structural-equation-and-latent-models&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#structural-equation-and-latent-models&quot; aria-label=&quot;structural equation and latent models permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Structural equation and latent models&lt;/h2&gt;
+&lt;p&gt;Particularly well explained how we can generate, specify, analyse, interpret and critically discuss a range of such models based on relevant research questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Understand the nature of &lt;a href=&quot;https://en.wikipedia.org/wiki/Structural_equation_modeling&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;SEM&lt;/a&gt; and  its  relationship to other statistical methods, specifically regression, path, and latent variable models.&lt;/li&gt;
+&lt;li&gt;How to use the R and other software for fitting multilevel models.&lt;/li&gt;
+&lt;li&gt;Distinguish between categorical and continuous variables, both observed and latent.&lt;/li&gt;
+&lt;li&gt;Be able to translate conceptual theory/hypothesis into appropriate SEM.&lt;/li&gt;
+&lt;li&gt;Interpret and graph the parameter estimates generated by different SEM.&lt;/li&gt;
+&lt;li&gt;Use MPLUS to specify and fit a range of structural equation models to ‘real’ datasets.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;text-center m-top-50&quot;&gt;
+    &lt;a class=&quot;btn line-btn-dark btn-icon btn-radius&quot; href=&quot;/media/SEM.pdf&quot; title=&quot;&quot;&lt;i class=&quot;fa fa-download&quot; download&gt;&lt;/i&gt;✔️ Essay: Measurement Political Trust: A Structural Equation Modelling Study&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;survey-research-methods&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#survey-research-methods&quot; aria-label=&quot;survey research methods permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Survey research methods&lt;/h2&gt;
+&lt;p&gt;Practical learning of the role of large-scale surveys in social research and practical experience of the key elements of conducting a survey including, sampling techniques, alternative modes of data collection, the role of the survey interviewer, questionnarie design, measurement error, and estimation in surveys:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Apply the key terminology used in large-scale survey design.&lt;/li&gt;
+&lt;li&gt;Understanding factors that influence data quality, including coverage, sampling, and nonresponse.&lt;/li&gt;
+&lt;li&gt;Evaluate different survey methods and sampling techniques. &lt;/li&gt;
+&lt;li&gt;Identify methods for assessing the quality of survey data.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;text-center m-top-50&quot;&gt;
+    &lt;a class=&quot;btn line-btn-dark btn-icon btn-radius&quot; href=&quot;/media/SM.pdf&quot; title=&quot;&quot;&lt;i class=&quot;fa fa-download&quot; download&gt;&lt;/i&gt;✔️ Essay: Survey Research Methods for the Time Banks Survey (2014) Round I&lt;/a&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;longitudinal-data-analysis&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#longitudinal-data-analysis&quot; aria-label=&quot;longitudinal data analysis permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Longitudinal Data Analysis&lt;/h2&gt;
+&lt;p&gt;Understanding of different longitudinal designs and the skills needed to conduct appropriate analyses using longitudinal data. Methods covered include the multilevel model for change, and models for investigating event occurrence over time.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Measurement and explanation of change.&lt;/li&gt;
+&lt;li&gt;Lectures and computer-lab examples mainly focused on Social Inequality and Education.&lt;/li&gt;
+&lt;li&gt;Studies implemented with appropriate statistical software, focusing on the use of R for longitudinal data analysis.&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item></channel></rss>
