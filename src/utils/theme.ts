@@ -1,12 +1,13 @@
 import { PaletteMode } from '@mui/material';
 
+
 export const getTheme = (mode: PaletteMode) => ({
   typography: {
-      fontFamily: '"-apple-system", "Roboto", "Arial"',
+      fontFamily: '"sans-serif", "Helvetica Neue", "Gothic", "Arial"',
       fontWeightLight: 300,
       fontWeightRegular: 400,
       fontWeightMedium: 500,
-      fontSize: 12
+      fontSize: 15
   },
   palette: {
     // Palette common to light and dark
@@ -55,7 +56,7 @@ export const getTheme = (mode: PaletteMode) => ({
       ? {
           // palette values for light mode
           primary: {
-            main: '#1e88e5'
+            main: '#121212'
             // dark: '#006bb4'
           },
           secondary: {
@@ -69,19 +70,19 @@ export const getTheme = (mode: PaletteMode) => ({
             main: '#e0e0e0'
           },
           info: {
-            main: '#09539c'
+            main: '#1e88e5'
           },
           success: {
             main: '#43a047'
           },
           text: {
             primary: '#343a40',
-            secondary: '#2e3133',
+            secondary: '#253f4b',
             // hint: '#363c42',
             disabled: '#48494a'
           },
           background: {
-            default: '#eceff1',
+            default: '#fafafa',
             paper: '#fafafa'
           }
         }
@@ -106,14 +107,14 @@ export const getTheme = (mode: PaletteMode) => ({
             main: '#43a047'
           },
           text: {
-            primary: '#f8f9fa',
-            secondary: '#e4e7eb',
+            primary: '#FFFFFF ',
+            secondary: '#253f4b',
             // hint: '#bbbcbd',
             disabled: '#ccc'
           },
           background: {
-            default: '#1c2c33',
-            paper: '#263238'
+            default: '#01000f',
+            paper: '#01000f'
           }
           // action: {
           //     hover:'#7cd2f7'

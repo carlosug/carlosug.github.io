@@ -7,13 +7,13 @@
 module.exports = {
   // pathPrefix: "/reponame",
   siteMetadata: {
-    title: `Carlos Utrilla-Guerrero`,
+    title: `Carlos Utrilla Guerrero`,
     description: `Carlos Utrilla-Guerrero personal website, with his resume.`,
     author: {
-      name: `Carlos Utrilla-Guerrero`,
+      name: `Carlos Utrilla Guerrero`,
     },
     social: {
-      github: `https://carlosug.github.io/new-website`,
+      github: `https://carlosug.github.io`,
     },
   },
   plugins: [

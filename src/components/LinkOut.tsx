@@ -6,10 +6,10 @@ export default function LinkOut({ children, href, target }: any) {
   // const theme = useTheme();
 
   const StyledLink = styled(Link)(({ theme }) => ({
-    textDecoration: 'none',
+    textDecoration: 'none', fontFamily: 'serif', fontWeight: '600',
     color: theme.palette.primary.main,
     '&:hover': {
-      color: theme.palette.secondary.main,
+      color: theme.palette.primary.main,
       textDecoration: 'none',
     },
   }));

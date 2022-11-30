@@ -2,11 +2,11 @@
     "name": "carlos-utrilla-guerrero-website",
     "description": "Carlos Utrilla-Guerrero personal website.",
     "version": "0.1.1",
-    "homepage": "https://carlosug.github.io/new-website",
+    "homepage": "https://carlosug.github.io",
     "author": {
         "name": "Carlos Utrilla-Guerrero",
         "email": "c.utrilla.guerrero@gmail.com",
-        "url": "https://carlosug.github.io/new-website"
+        "url": "https://carlosug.github.io"
     },
     "keywords": [
         "Carlos Utrilla-Guerrero",
@@ -57,6 +57,7 @@
         "eslint": "^7.26.0",
         "eslint-plugin-react": "^7.23.2",
         "eslint-plugin-react-hooks": "^4.2.0",
+        "gh-pages": "^4.0.0",
         "prettier": "^2.2.1",
         "typescript": "^4.2.4"
     },
@@ -66,9 +67,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://carlosug.github.io/new-website"
+        "url": "https://carlosug.github.io"
     },
     "bugs": {
-        "url": "https://github.com/carlosug/new-website/issues"
+        "url": "https://github.com/carlosug/carlosug.github.io/issues"
     }
 }

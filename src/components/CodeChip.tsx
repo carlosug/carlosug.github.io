@@ -11,7 +11,9 @@ import KubernetesIcon from '../images/kubernetes_logo.svg';
 // @ts-ignore
 import DockerIcon from '../images/docker_logo.png';
 // @ts-ignore
-import JavaIcon from '../images/java_logo.png';
+import JavaIcon from '../images/R_logo.svg';
+// @ts-ignore
+
 
 const CodeChip = ({ lang }: any) => {
 // export default function CodeChip({ lang }: any) {
@@ -43,8 +45,8 @@ const CodeChip = ({ lang }: any) => {
             </Icon>
     },
     java: {
-      label: "Java",
-      icon: <Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
+      label: "Rstudio",
+      icon: <Icon style={{display: 'flex', marginLeft: theme.spacing(0.3)}}>
               <img src={JavaIcon} />
             </Icon>
     },

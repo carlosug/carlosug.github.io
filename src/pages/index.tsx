@@ -14,24 +14,23 @@ import OrcidIcon from '../images/orcid_logo.svg';
 // @ts-ignore
 import GoogleScholarIcon from '../images/google_scholar_logo.svg';
 // @ts-ignore
-import HalIcon from '../images/hal_logo.png';
+import RgIcon from '../images/researchgate_logo.svg';
 // @ts-ignore
-// import DblpIcon from '../images/dblp_logo.png';
-// @ts-ignore
-import RgIcon from '../images/researchgate_logo.svg' ;
-// @ts-ignore
-// import PythonIcon from '../images/python_icon.svg';
-{/* <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script> */}
-// import SolidIcon from '../images/solid_logo.svg';
+import slideIcon from '../images/slideshare.png';
+import emailIcon from '../images/mail-142.png';
 
 import CodeChip from '../components/CodeChip';
 import { Title, Paragraph } from '../components/StyledComponents';
-import { projects, courses, skills, skillsCategories } from '../data';
+import { short_intro_text, about_me_text, projects, courses, supervising, skills, past_text, skillsCategories } from '../content';
 import Seo from '../components/layout/seo';
 import LinkOut from "../components/LinkOut";
+import LinkPara from '../components/LinkPara';
 import ProfileButton from "../components/ProfileButton";
 import { FC } from '../utils/types';
 // import MyMarkdown from "../components/MyMarkdown";
+// import MyMarkdown from "../components/MyMarkdown";
+
+
 
 
 const IndexPage: FC = () => {
@@ -72,7 +71,7 @@ const IndexPage: FC = () => {
             color="warning"
             icon={<GitHubIcon />}
           />
-          <ProfileButton label='carlos-utrilla-guerrero'
+          <ProfileButton label='carlos utrilla guerrero'
             tooltip='LinkedIn profile'
             href="https://www.linkedin.com/in/carlos-utrilla-guerrero-97ba7b31/"
             color="info"
@@ -86,6 +85,14 @@ const IndexPage: FC = () => {
               <img src={OrcidIcon} />
             </Icon>}
           />
+                    <ProfileButton label='c.utrilla.guerrero@gmail.com'
+            tooltip='Gmail account'
+            href="c.utrilla.guerrero@gmail.com"
+            color="secondary"
+            icon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
+              <img src={emailIcon} />
+            </Icon>}
+          />
           {/* <ProfileButton label='Solid pod'
             tooltip='SOLID pod (Social Linked Data)'
             href="https://carlosug.solidcommunity.net/profile/#me"
@@ -97,14 +104,16 @@ const IndexPage: FC = () => {
         </Stack>
       </Card>
 
-      <Paragraph style={{marginTop: theme.spacing(3), textAlign: 'center'}}>
-        Research data scientist working in Semantic Web standards (RDF, SPARQL, OWL ontologies, SHACL, RML), quantitative methods, and web technologies.
-      </Paragraph>
+      <div style={{marginTop: theme.spacing(3), textAlign: 'center'}}>
+        {short_intro_text}
+      </div>
 
 
-      <Title>
-        Publications
+
+      <Title id='publications'>
+        📚️ Publications
       </Title>
+
 
       <Card style={{display: 'inline-block', padding: theme.spacing(2)}}>
         <Stack direction={{xs: "column", md: "row"}} spacing={2} alignItems="center" justifyContent="center">
@@ -124,22 +133,30 @@ const IndexPage: FC = () => {
               <img src={RgIcon} />
             </Icon>}
           />
+                    <ProfileButton label='Slideshare'
+            tooltip='Publications on Slideshare'
+            href='https://www.slideshare.net/CarlosUtrillaGuerrer1'
+            color='success'
+            icon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
+              <img src={slideIcon} />
+            </Icon>}
+          />
         </Stack>
       </Card>
 
 
-      <Title id='projects'>
-        Latest research projects
+      <Title id='projects' fontWeight='bold'>
+      🔬 Latest research projects
       </Title>
 
       <Grid container spacing={2} alignItems="stretch">
         { projects.map((project: any, key: number) => (
           <Grid item xs={12} md={4}>
-            <Card style={{display: 'inline-block', textAlign: 'left', height: '100%'}}>
+            <Card style={{display: 'inline-block', textAlign: 'center', height: '100%'}}>
               <CardHeader
                 // avatar={<GitHubIcon />}
                 title={project.title}
-                titleTypographyProps={{variant: 'h6' }}
+                titleTypographyProps={{fontSize:'1.1rem', fontFamily:'Roboto'}}
                 // titleTypographyProps={{variant: 'subtitle1', style: {fontSize: '1.1rem'} }}
                 subheader={<>
                   { project.langs.map((lang: any, key: number) => (
@@ -197,18 +214,24 @@ const IndexPage: FC = () => {
       </Grid>
 
 
+      <div style={{marginTop: theme.spacing(3), textAlign: 'center'}}>
+        {past_text}
+      </div>
+
+
+
       <Title id='courses'>
-        Teaching
+      🎭 Teaching and supervising
       </Title>
 
       <Grid container spacing={2} alignItems="stretch">
         { courses.map((course: any, key: number) => (
           <Grid item xs={12} md={4}>
-            <Card style={{display: 'inline-block', textAlign: 'left', height: '100%'}}>
+            <Card style={{display: 'inline-block', textAlign: 'center', height: '100%'}}>
               <CardHeader
                 // avatar={<GitHubIcon />}
                 title={course.title}
-                titleTypographyProps={{variant: 'h6' }}
+                titleTypographyProps={{fontSize: '1.1rem'}}
                 // titleTypographyProps={{variant: 'subtitle1', style: {fontSize: '1.1rem'} }}
                 subheader={<>
                   { course.langs.map((lang: any, key: number) => (
@@ -265,54 +288,23 @@ const IndexPage: FC = () => {
         ))}
       </Grid>
 
+      <div style={{marginTop: theme.spacing(3), textAlign: 'center'}}>
+        {supervising}
+      </div>
 
-      <Title>
-        About me
+
+      <Title id="about">
+        💬 About me
       </Title>
 
-      <Paragraph>
-        I now live in Maastricht, The Netherland and work in <LinkOut href="https://www.maastrichtuniversity.nl/p70069673">Maastricht University</LinkOut> at <LinkOut href="https://www.maastrichtuniversity.nl/p70069673">the Institute of Data Science</LinkOut> as research data scientist. 
-        Recently I contributed to the <LinkOut href="https://maastrichtu-ids.github.io/dsri-documentation">Data Science Research Infrastructure Research Project</LinkOut>,
-        an OpenShift cluster for academic researchers, and <LinkOut href="http://d2s.semanticscience.org">PLAYFAIR</LinkOut>,
-        a framework to generate services from structured data using a semantically meaningful data model.
-        I also built a RDF knowledge graph that integrates data from biomedical and other data sources,
-        am involved in the Distributed Knowledge Graph effort of the <LinkOut href="https://cost-dkg.eu/">COST Action on Distributed Knowledge Graphs Project</LinkOut>,
-        and contributed to advancing the <LinkOut href="https://biolink.github.io/biolink-model/docs/">Open Science Project</LinkOut>.
-      </Paragraph>
-      <Paragraph>
-      I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice.
-      </Paragraph>
-      <Paragraph>
-      When not dealing with numbers or reading, I’m a happy uncle, a swimmer, a tennis player and, last but not least, a loving supporter of Real Zaragoza football team.
-      </Paragraph>
+      {about_me_text}
 
-      {/* <Paragraph>
-        The aim of my work is to build data ecosystems that will enable scientific researchers
-        to make new discoveries. As a data science developer at the Institute of Data Science
-        at Maastricht University, I developed the <LinkOut href="https://maastrichtu-ids.github.io/dsri-documentation/">Data Science Research Infrastructure</LinkOut>,
-        an OpenShift cluster for academic researchers, and <LinkOut href="http://d2s.semanticscience.org/">Data2Services</LinkOut>,
-        a framework to generate services from structured data using a semantically meaningful data model.
-        I also built a RDF knowledge graph that integrates data from biomedical and clinical data sources,
-        was involved in the Knowledge Graph Standardization effort of the <LinkOut href="https://ncats.nih.gov/translator">NIH NCATS Translator project</LinkOut>,
-        and contributed to advancing the <LinkOut href="https://biolink.github.io/biolink-model/docs/">BioLink model</LinkOut>.
-        All these activities have been aimed at building an infrastructure for computationally-assisted exploration of knowledge and innovative research hypotheses.
-      </Paragraph>
-      <Paragraph>
-        I first realized the data access challenges faced by researchers and medical practitioners while I worked on the <LinkOut href="http://bio2rdf.org/">Bio2RDF project</LinkOut> at Quebec University as part of a Master’s in Bioinformatics. I have since dedicated my career to building biomedical and clinical data resources and ensuring users' access to them. I am a strong advocate of Open Source and commit myself to write comprehensible documentation and build easily accessible and reusable software. In my activities, I emphasize improving existing standards to address data interoperability and reproducibility and empowering researchers to improve their scientific practice.
-        Before taking my current position at the Institute of Data Science at UM, I worked as a research engineer at the LIRMM in Montpellier on projects to make the semantic web and ontologies more accessible to researchers, such as AgroPortal a portal for agronomical ontologies.
-      </Paragraph>
-      <Paragraph>
-        Making new discoveries acts a great source of motivation for me. This curiosity also pushes me in other areas of my life. I practice a number of outdoor sports including mountain biking, bicycle tourism, Ultimate frisbee, hiking and trail running, and have travelled extensively across Europe and North America. It is perhaps for this reason that I have shown an ability to adapt quickly to new technologies and challenges with little outside help. Having said this, collaborative work within a team is something that I highly value and, indeed, am actively looking for.
-      </Paragraph>
-      <Paragraph>Feel free to contact me for more details.</Paragraph> */}
-
-
-      <Title>
-        Skills
+      <Title id="skills">
+        🛠️ Technical skills
       </Title>
 
       <Paragraph style={{textAlign: 'center'}}>
-        The displayed scores are obviously subjective, please refer to my <LinkOut href="/cv_carlos_utrilla-guerrero.pdf">CV</LinkOut> for a better account of how those skills were used.
+        The displayed scores are obviously subjective, please refer to my <LinkPara href="/cv_carlos_utrilla-guerrero.pdf">CV</LinkPara> for a better account of how those skills were used.
       </Paragraph>
 
       <Button variant="text" color="inherit" onClick={() => { updateState({ filterSkills: 'all'}) }} style={{textTransform: 'none'}}>
@@ -359,15 +351,6 @@ const IndexPage: FC = () => {
       {/* <MyMarkdown>
        Trying markdown
       </MyMarkdown> */}
-
-      <Title>
-        Contact me
-      </Title>
-
-      <Paragraph style={{textAlign: 'center'}}>
-      I am always interested in hearing about and sharing new ideas, in both academic and business contexts.
-      If you have a project or opportunity for collaboration you’d like to discuss, or if you just want a friendly chat, feel free to drop me a line at: <p><LinkOut href="c.utrilla.guerrero@gmail.com">📩 c.utrilla.guerrero@gmail.com</LinkOut></p>
-      </Paragraph>
 
     </Container>
   )
