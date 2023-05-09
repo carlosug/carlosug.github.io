@@ -56,7 +56,7 @@ export const getTheme = (mode: PaletteMode) => ({
       ? {
           // palette values for light mode
           primary: {
-            main: '#121212'
+            main: '#042742'
             // dark: '#006bb4'
           },
           secondary: {
@@ -108,13 +108,13 @@ export const getTheme = (mode: PaletteMode) => ({
           },
           text: {
             primary: '#FFFFFF ',
-            secondary: '#253f4b',
+            secondary: '#F2F3F5',
             // hint: '#bbbcbd',
             disabled: '#ccc'
           },
           background: {
-            default: '#01000f',
-            paper: '#01000f'
+            default: '#042742',
+            paper: '#042742'
           }
           // action: {
           //     hover:'#7cd2f7'

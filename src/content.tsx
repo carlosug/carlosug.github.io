@@ -31,7 +31,15 @@ export const about_me_text = <>
 
 // List of projects
 export const projects = [
-    {
+  {
+    title: <LinkOut href="https://github.com/4TUResearchData/soss">🚀 4TUResearchData Semantics - SoSS</LinkOut>,
+    langs: ['docker', 'python'],
+    description: `Scientific open source Software (SOSS) - A repository that given an software arfefact DOI, it will computationally reproduce the software environment of the package.`,
+    //website_url: 'https://datasharingcoalition.eu/',
+    git_url: 'https://github.com/4TUResearchData/soss',
+    // git_url: 'https://github.com/MaastrichtU-IDS/dsri-documentation',
+  },  
+  {
       title: <LinkOut href="https://www.clariah.nl/projects/fair-data-for-historical-games">🎲 PLAYFAIR</LinkOut>,
       langs: ['python', 'typescript'],
       description: `A knowledge graph (KG) using semantic web technolgies. 
@@ -60,9 +68,9 @@ export const projects = [
       title: <LinkOut href="https://library.maastrichtuniversity.nl/research/rdm/rdm-and-fair/">🔭 CDDI</LinkOut>,
       langs: ['java', 'python'],
       description: `The Community Data Driven Insight (CDDI) is a project that implemented FAIR research data and software management strategies with digital techniques across research communities.`,
-      // website_url: 'https://dsri.maastrichtuniversity.nl',
+     // website_url: 'https://doi.org/10.48550/arXiv.2303.07429',
       docs_url: 'https://doi.org/10.3897/rio.8.e96082',
-      // git_url: 'https://github.com/MaastrichtU-IDS/dsri-documentation',
+      pip_url: 'https://doi.org/10.48550/arXiv.2303.07429',
     },
     {
       title: <LinkOut href="https://maastrichtu-ids.github.io/projects">💨 IDS research project directory</LinkOut>,
@@ -71,14 +79,6 @@ export const projects = [
       // website_url: 'https://dsri.maastrichtuniversity.nl',
       docs_url: 'https://maastrichtu-ids.github.io/best-practices/docs/ids-projects#what-is-the-ids-projects-dashboard',
       git_url: 'https://github.com/MaastrichtU-IDS/projects',
-    },
-    {
-      title: <LinkOut href="https://datasharingcoalition.eu/2022/qa-with-maastricht-university-institute-of-data-science/">🚀 DSC</LinkOut>,
-      langs: ['docker', 'python'],
-      description: `The Data Sharing Coalition (DSC) aims at increasing awareness from industry about data standards and interoperability cross-sectorial. I was particularly involved in building a knowledge base from texts about human trafficking data.`,
-      website_url: 'https://datasharingcoalition.eu/',
-      docs_url: 'https://datasharingcoalition.eu/2022/qa-with-maastricht-university-institute-of-data-science/',
-      // git_url: 'https://github.com/MaastrichtU-IDS/dsri-documentation',
     },
     
     // {
@@ -98,7 +98,7 @@ linking and retrival of heterogeneous and distributed data sources such as the <
 as well as building communities and standards for research data management and software best practices. 
 Previously, I had also worked in industry as data scientist on project funded 
 by the <LinkPara href="https://www.esa.int/">European Space Agency (ESA)</LinkPara> and the <LinkPara href="https://www.eib.org/en/index.htm">European Investment Bank (EIB)</LinkPara> related to data integration, visualisation and statistical analysis. 
-Check all archived research projects in this Github repository <LinkPara href="https://carlosug.github.io/researchblog/">(@carlosug)</LinkPara> or on this <LinkPara href="/researchprojects.pdf">PDF</LinkPara>.
+Check all archived research projects in this Github repository <LinkPara href="https://carlosug.github.io/researchblog/">(@carlosug)</LinkPara> or on this <LinkPara href="/researchprojects.pdf">🗂️ PDF</LinkPara>.
 </Paragraph>
 </>
 

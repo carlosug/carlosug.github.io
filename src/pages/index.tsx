@@ -199,7 +199,7 @@ const IndexPage: FC = () => {
                   </Tooltip>
                 }
                 { project.pip_url &&
-                  <Tooltip title='Python library on PyPI'>
+                  <Tooltip title='ArXiv pre-print'>
                     <a href={project.pip_url} target='_blank'>
                       <IconButton aria-label="Pip link">
                         <PipIcon />
@@ -304,7 +304,7 @@ const IndexPage: FC = () => {
       </Title>
 
       <Paragraph style={{textAlign: 'center'}}>
-        The displayed scores are obviously subjective, please refer to my <LinkPara href="/cv_carlos_utrilla-guerrero.pdf">CV</LinkPara> for a better account of how those skills were used.
+        The displayed scores are obviously subjective, please refer to my <LinkPara href="/cv_carlos_utrilla-guerrero.pdf">🗂️ CV</LinkPara> for a better account of how those skills were used.
       </Paragraph>
 
       <Button variant="text" color="inherit" onClick={() => { updateState({ filterSkills: 'all'}) }} style={{textTransform: 'none'}}>

@@ -18,7 +18,7 @@
         "dev": "gatsby develop",
         "serve": "gatsby build && gatsby serve -p 8000",
         "clean": "gatsby clean",
-        "deploy": "yarn clean && gatsby build --prefix-paths && gh-pages -d public -r https://$GITHUB_TOKEN@github.com/carlosug/carlosug.github.io.git",
+        "deploy": "yarn clean && gatsby build --prefix-paths && gh-pages -d public -r https://[TOKEN]@github.com/carlosug/carlosug.github.io.git",
         "style": "yarn run format && yarn run lint",
         "format": "yarn prettier --ignore-path .eslintignore ./src --write --config ./.prettierrc",
         "check": "yarn prettier --ignore-path .eslintignore ./src --check --config ./.prettierrc",
