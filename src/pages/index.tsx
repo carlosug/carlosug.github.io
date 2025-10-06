@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTheme } from '@mui/material/styles';
-import { Container, Box, Typography, Grid, Icon, Stack, Tooltip, IconButton, CardActions, CardContent, CardHeader, Card, Link, Button } from "@mui/material";
+import { Container, Box, Typography, Grid, Icon, Stack, Tooltip, IconButton, CardActions, CardContent, CardHeader, Card, CardMedia, Link, Button } from "@mui/material";
 import LinearProgress from '@mui/material/LinearProgress';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -8,6 +8,7 @@ import GoToWebsiteIcon from '@mui/icons-material/OpenInBrowser';
 import DocsIcon from '@mui/icons-material/MenuBook';
 import PDFIcon from '@mui/icons-material/PictureAsPdf';
 import PipIcon from '@mui/icons-material/ViewInAr';
+import CoPresentIcon from '@mui/icons-material/CoPresent';
 
 // @ts-ignore
 import OrcidIcon from '../images/orcid_logo.svg';
@@ -16,7 +17,7 @@ import GoogleScholarIcon from '../images/google_scholar_logo.svg';
 // @ts-ignore
 import RgIcon from '../images/researchgate_logo.svg';
 // @ts-ignore
-import slideIcon from '../images/slideshare.png';
+import slideIcon from '../images/zenodo.png';
 import emailIcon from '../images/mail-142.png';
 
 import CodeChip from '../components/CodeChip';
@@ -25,6 +26,7 @@ import { short_intro_text, about_me_text, projects, courses, supervising, skills
 import Seo from '../components/layout/seo';
 import LinkOut from "../components/LinkOut";
 import LinkPara from '../components/LinkPara';
+import LinkLecture from '../components/LinkLecture';
 import ProfileButton from "../components/ProfileButton";
 import { FC } from '../utils/types';
 // import MyMarkdown from "../components/MyMarkdown";
@@ -87,7 +89,7 @@ const IndexPage: FC = () => {
           />
                     <ProfileButton label='c.utrilla.guerrero@gmail.com'
             tooltip='Gmail account'
-            href="c.utrilla.guerrero@gmail.com"
+            href="mailto:c.utrilla.guerrero@gmail.com"
             color="secondary"
             icon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
               <img src={emailIcon} />
@@ -133,10 +135,10 @@ const IndexPage: FC = () => {
               <img src={RgIcon} />
             </Icon>}
           />
-                    <ProfileButton label='Slideshare'
-            tooltip='Publications on Slideshare'
-            href='https://www.slideshare.net/CarlosUtrillaGuerrer1'
-            color='success'
+                    <ProfileButton label='Zenodo'
+            tooltip='Publications on Zenodo'
+            href='https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Carlos%20Utrilla%20Guerrero%22&l=list&p=1&s=10&sort=bestmatch'
+            color='info'
             icon={<Icon style={{display: 'flex', marginLeft: theme.spacing(1)}}>
               <img src={slideIcon} />
             </Icon>}
@@ -149,7 +151,7 @@ const IndexPage: FC = () => {
       🔬 Latest research projects
       </Title>
 
-      <Grid container spacing={2} alignItems="stretch">
+      <Grid container spacing={1} alignItems="stretch">
         { projects.map((project: any, key: number) => (
           <Grid item xs={12} md={4}>
             <Card style={{display: 'inline-block', textAlign: 'center', height: '100%'}}>
@@ -165,8 +167,19 @@ const IndexPage: FC = () => {
                 </>}
                 style={{paddingBottom: '0px', textAlign: 'center'}}
               />
+               <CardMedia
+                component="img"
+                height="80"
+                image={project.image}
+                alt={project.title}
+                sx = {{
+                  borderRadius: '10%',
+                  boxShadow: '0 0 10px 0 rgba(0,0,0,0.2)',
+                  margin: 'auto',
+                  width: '70%',
+                }} />
               <CardContent style={{paddingBottom: '0px', paddingTop: theme.spacing(1)}}>
-                <Typography variant="body2">
+                <Typography variant="body2" style={{fontSize: "0.75rem", fontFamily: "sans-serif"}}>
                   {project.description}
                 </Typography>
               </CardContent>
@@ -181,10 +194,10 @@ const IndexPage: FC = () => {
                   </Tooltip>
                 }
                 { project.docs_url &&
-                  <Tooltip title='Documentation'>
+                  <Tooltip title='Article'>
                     <a href={project.docs_url} target='_blank'>
                       <IconButton aria-label="Go to documentation">
-                        <DocsIcon />
+                        <PDFIcon />
                       </IconButton>
                     </a>
                   </Tooltip>
@@ -199,10 +212,10 @@ const IndexPage: FC = () => {
                   </Tooltip>
                 }
                 { project.pip_url &&
-                  <Tooltip title='ArXiv pre-print'>
+                  <Tooltip title='Slides'>
                     <a href={project.pip_url} target='_blank'>
                       <IconButton aria-label="Pip link">
-                        <PipIcon />
+                        <CoPresentIcon />
                       </IconButton>
                     </a>
                   </Tooltip>
@@ -221,12 +234,12 @@ const IndexPage: FC = () => {
 
 
       <Title id='courses'>
-      🎭 Teaching and supervising
+      🎭 Teaching
       </Title>
 
-      <Grid container spacing={2} alignItems="stretch">
+      <Grid container spacing={3} alignItems="stretch">
         { courses.map((course: any, key: number) => (
-          <Grid item xs={12} md={4}>
+          <Grid item xs={10} md={3}>
             <Card style={{display: 'inline-block', textAlign: 'center', height: '100%'}}>
               <CardHeader
                 // avatar={<GitHubIcon />}
@@ -288,23 +301,65 @@ const IndexPage: FC = () => {
         ))}
       </Grid>
 
-      <div style={{marginTop: theme.spacing(3), textAlign: 'center'}}>
+      <div style={{marginTop: theme.spacing(2), textAlign: 'center'}}>
         {supervising}
       </div>
 
+    <Title id="skills">
+      🛠️ Talks and presentations
+    </Title>
 
-      <Title id="about">
-        💬 About me
-      </Title>
+    <Typography variant="h6" style={{ marginBottom: theme.spacing(0.1), fontFamily: 'fantasy', textAlign: 'justify', fontWeight: 'bold'}}>
+      2025:
+    </Typography>
+    <hr style={{ border: '0.5px solid grey', marginTop: theme.spacing(0.1) }} />
+    <ul style={{ textAlign: 'justify'}}>
+      <li><LinkLecture href="https://zenodo.org/records/14888704">The potential role of generative AI in RSE: Opportunities, Challenges, and Outlook.</LinkLecture> AI in Action: How Researchers Leverage AI, RDA Workshop Feb 2025.</li>
+      {/* <li><LinkLecture href="https://zenodo.org/records/11492084">Exploration of AI tools for research software.</LinkLecture> Spring Symposium - AI Education hosted by TU Delft | AI Initiative, June 2024.</li> */}
+      {/* <li><LinkLecture href="https://doi.org/10.5281/zenodo.11528182">Automated Extraction of Research Software Installation Instructions from README files.</LinkLecture> NSLP 2024 workshop, May 2024.</li> */}
+    </ul>
+
+    <Typography variant="h6" style={{ marginBottom: theme.spacing(0.1), fontFamily: 'fantasy', textAlign: 'justify', fontWeight: 'bold'}}>
+      2024:
+    </Typography>
+    <hr style={{ border: '0.5px solid grey', marginTop: theme.spacing(0.1) }} />
+    <ul style={{ textAlign: 'justify'}}>
+      <li><LinkLecture href="https://zenodo.org/records/14501603">TU Delft Curso para Candidatos de Doctorado: Gestión de datos de Investigación 101.</LinkLecture> RDA23 Plenary Conference en Costa Rica (Univ. de San Jose), Nov 2024.</li>
+      <li><LinkLecture href="https://zenodo.org/records/11492084">Exploration of AI tools for research software.</LinkLecture> Spring Symposium - AI Education hosted by TU Delft | AI Initiative, June 2024.</li>
+      <li><LinkLecture href="https://doi.org/10.5281/zenodo.11528182">Automated Extraction of Research Software Installation Instructions from README files.</LinkLecture> NSLP 2024 workshop, May 2024.</li>
+    </ul>
+
+    <Typography variant="h6" style={{ marginBottom: theme.spacing(0.1), fontFamily: 'fantasy', textAlign: 'justify', fontWeight: 'bold'}}>
+      2023:
+    </Typography>
+    <hr style={{ border: '0.5px solid grey', marginTop: theme.spacing(0.1) }} />
+    <ul style={{ textAlign: 'justify'}}>
+      <li><LinkLecture href="https://zenodo.org/records/8158825">What can an open science educator do on teaching and building digital competences in reproducibility?.</LinkLecture> Sheffield University at Teaching Reproducible Research and Open Science Conference, July 2023.</li>
+    </ul>
+  
+    <Typography variant="h6" style={{ marginBottom: theme.spacing(0.1), fontFamily: 'fantasy', textAlign: 'justify', fontWeight: 'bold'}}>
+      2022:
+    </Typography>
+    <hr style={{ border: '0.5px solid grey', marginTop: theme.spacing(0.1) }} />
+    <ul style={{ textAlign: 'justify'}}>
+    <li><LinkLecture href="https://zenodo.org/records/6588450">Challenges and solutions towards building and visualising FAIR data for traditional games.</LinkLecture> Storytelling - DARIAH Annual Conference 2022 , Athens, Greece; June 2022.</li>
+    <li><LinkLecture href="https://www.openscience-maastricht.nl/events/fair-coffee-lecture-25-may-2022/">FAIR Coffee: Visualising FAIR data for traditional games.</LinkLecture> FAIR Coffee Event - Maastricht and (online); May 2022.</li>
+    <li><LinkLecture href="https://www.slideshare.net/slideshow/the-importance-of-the-community-of-data-driven-insights-the-road-to-the-science-of-the-future1/251059170">The importance of FAIR and the Community of Data Driven Insights (CDDI) - the road to the science of the future.</LinkLecture> A talk about the Community Data Driven Insight project in Maastricht University, April 2022.</li>
+    <li><LinkLecture href="https://riojournal.com/topical_collection/190">FAIR Begins at home: Implementing FAIR via the Community Data Driven Insights.</LinkLecture> RIO Journal - FAIR Data Collection, March 2022.</li>
+    <li><LinkLecture href="https://www.slideshare.net/slideshow/online-mbic-open-science-symposium-oct-2020/251381936">FAIR practices being currently implemented in some projects CDDI.</LinkLecture> Online M-BIC Open Science Symposium, January 2022.</li>
+    </ul>
+
+    <Title id="bio">
+      💬 Bio
+    </Title>
+
 
       {about_me_text}
-
-      <Title id="skills">
-        🛠️ Technical skills
-      </Title>
-
-      <Paragraph style={{textAlign: 'center'}}>
-        The displayed scores are obviously subjective, please refer to my <LinkPara href="/cv_carlos_utrilla-guerrero.pdf">🗂️ CV</LinkPara> for a better account of how those skills were used.
+      {/* <MyMarkdown>
+       Trying markdown
+      </MyMarkdown> */}
+ <Paragraph style={{textAlign: 'left'}}>
+        Below I subjectively rated my techincal skills with scores, please refer to my <LinkPara href="/cv_carlos_utrilla-guerrero.pdf">🗂️ CV</LinkPara> for a better account of how those skills were used.
       </Paragraph>
 
       <Button variant="text" color="inherit" onClick={() => { updateState({ filterSkills: 'all'}) }} style={{textTransform: 'none'}}>
@@ -323,7 +378,7 @@ const IndexPage: FC = () => {
           return (<>
             { (state.filterSkills == 'all' || skill.category.includes(state.filterSkills)) &&
             <Grid item xs={12} md={4}>
-              <Card style={{textAlign: 'left', height: '100%', padding: theme.spacing(2)}}>
+              <Card style={{textAlign: 'left', height: '100%', padding: theme.spacing(1)}}>
                 <CardContent style={{padding: '0px'}}>
                   <Box sx={{ display: 'flex', alignItems: 'center' }}>
                     {/* ##ch is the size of the largest skill name */}
@@ -347,11 +402,6 @@ const IndexPage: FC = () => {
         </>)}
         )}
       </Grid>
-
-      {/* <MyMarkdown>
-       Trying markdown
-      </MyMarkdown> */}
-
     </Container>
   )
 }

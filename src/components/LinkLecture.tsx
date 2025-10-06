@@ -6,7 +6,7 @@ export default function LinkPara({ children, href, target }: any) {
   // const theme = useTheme();
 
   const StyledLink = styled(Link)(({ theme }) => ({
-    textDecoration: 'underline',
+    textDecoration: 'underline', fontFamily: 'sans-serif', textSizeAdjust: '0.5em',
     color: theme.palette.text.secondary,
     '&:hover': {
       color: theme.palette.text.secondary,

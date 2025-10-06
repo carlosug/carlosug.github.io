@@ -15,10 +15,10 @@ import { ColorModeContext } from './layout';
 import { FC } from '../../utils/types';
 
 const navLinks = [
-  { label: 'Research projects', url: 'projects' },
-  { label: 'Teaching and supervising', url: 'courses' },
-  { label: 'Technical Skills', url: 'skills' },
-  { label: 'About me', url: 'about' },
+  { label: 'PROJECTS', url: 'projects' },
+  { label: 'TEACHING', url: 'courses' },
+  { label: 'TALKS AND PRESENTATIONS', url: 'skills' },
+  { label: 'BIO', url: 'bio' },
 ];
 
 export interface NavBarProps {
@@ -44,7 +44,7 @@ const NavBar: FC<NavBarProps> = (props) => {
         <Toolbar disableGutters variant="dense" style={{ height: '33px', minHeight: '32px' }}>
 
           {/* Title on the left */}
-          <Typography fontSize='1.1rem' fontWeight = 'bold' fontFamily='serif' style={{ flexGrow: '1' }}>
+          <Typography fontSize='1.1rem' color='Highlight' fontWeight = 'bold' fontFamily='gotham Bold' fontStyle='oblique' style={{ flexGrow: '5' }}>
             <Link to="/" component={GatsbyLink} color="inherit" style={{ textDecoration: 'none' }}>
               {props.siteTitle || ''}
             </Link>

@@ -3,11 +3,11 @@ import { PaletteMode } from '@mui/material';
 
 export const getTheme = (mode: PaletteMode) => ({
   typography: {
-      fontFamily: '"sans-serif", "Helvetica Neue", "Gothic", "Arial"',
+      fontFamily: '"-apple-system", "Helvetica Neue", "Gothic", "Arial"',
       fontWeightLight: 300,
       fontWeightRegular: 400,
       fontWeightMedium: 500,
-      fontSize: 15
+      fontSize: 14
   },
   palette: {
     // Palette common to light and dark
@@ -77,7 +77,8 @@ export const getTheme = (mode: PaletteMode) => ({
           },
           text: {
             primary: '#343a40',
-            secondary: '#253f4b',
+            secondary: '#3d85c6',
+            error: '#c62828',
             // hint: '#363c42',
             disabled: '#48494a'
           },
